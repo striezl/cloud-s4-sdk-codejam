@@ -122,7 +122,7 @@ public class TranslateServlet extends HttpServlet
     }
 
     private class TranslationResult {
-        List<TranslationUnit> units = Lists.newArrayList();
+        List<TranslationUnit> units = Lists.newArrayList();   
 
         private List<TranslationUnit> getUnits() {
             return units;
