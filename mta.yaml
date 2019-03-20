@@ -19,7 +19,7 @@ modules:
          command: [ clean, install ]
       build-result: application/target/*.war
    requires:
-    - name: my-destination
+    - name: my-destination 
     - name: my-xsuaa
 
 resources:
